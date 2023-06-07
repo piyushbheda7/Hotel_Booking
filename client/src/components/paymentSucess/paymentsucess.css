@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.SImg {
+    width: 13vw;
+}
+
+.DetailInfo {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.DetailInfo>h4 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.DetailInfo>p {
+
+    padding: 5px;
+
+}
+
+.DetailInfo>button {
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

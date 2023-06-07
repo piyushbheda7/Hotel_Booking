@@ -1,0 +1,39 @@
+.login {
+    background-image: url('https://cf.bstatic.com/xdata/images/xphoto/2048x1536/170335205.webp?k=d93f0fd679117580857507c964cdd3cea26571923cda7c21871f9bd9acc2b241&o=');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+
+  .loginregister{
+    color: #003580;
+    text-decoration: none;
+  }

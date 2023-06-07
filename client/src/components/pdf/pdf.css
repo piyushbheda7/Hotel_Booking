@@ -1,0 +1,49 @@
+.PdfContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.PDfTitle {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+.BookingDetail {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.DeatilInfo>h3 {
+    margin-top: 10px;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+    font-size: 25px;
+}
+
+.Bookingwrap {
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.Totalamount {
+    text-align: center;
+}
+
+.slip {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.PDfTitle>h1{
+    text-align: center;
+}
